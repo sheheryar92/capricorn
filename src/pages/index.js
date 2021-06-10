@@ -5,7 +5,7 @@ import ProductFeed from "../components/ProductFeed";
 
 export default function Home({products}) {
   return (
-    <div>
+    <div className='grid grid-flow-row auto-rows-max'>
       <Head>
         <title>Capricornstylepk</title>
       </Head>

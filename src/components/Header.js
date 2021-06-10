@@ -1,13 +1,13 @@
 const Header = () => {
   return (
-    <header>
+    <header >
       <div className="flex items-center  flex-grow bg-amazon_blue p-6 ">
         <div className="items-center flex flex-grow sm:flex-grow-0 px-3">
           <h2
             className="cursor-pointer  "
             style={{ color: "white ", fontSize: 24 }}
           >
-            CapricornStyle.pk{" "}
+            CapricornStyle.pk
           </h2>
         </div>
 
@@ -25,7 +25,7 @@ const Header = () => {
 
 
 
-<div className='text-white flex items-center text-xs px-4 space-x-6 text-center '>
+<div className='text-white flex items-center text-xs px-4 space-x-6 text-center'>
   <div  className='link'>
     <p className='font-extrabold md:text-sm'>hello</p>
     <p className='font-extrabold md:text-sm'>Account & List</p>
